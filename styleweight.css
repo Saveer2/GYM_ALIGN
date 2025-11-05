@@ -1,0 +1,124 @@
+/* --- Page Background to Match Index --- */
+body {
+    background: linear-gradient(to bottom right, #0a001a, #25003e);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Heading Style (Matches Index Glow) --- */
+.text1 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    color: #a855f7;
+    text-shadow: 0 0 10px #9c4dff, 0 0 20px #7b36cc;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+/* --- Card Section Matching Index Look --- */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 25px;
+    width: 260px;
+    text-align: center;
+    color: #fff;
+    backdrop-filter: blur(10px);
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 12px rgba(156, 77, 255, 0.3);
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(156, 77, 255, 0.6);
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 15px rgba(156, 77, 255, 0.6);
+}
+
+/* --- Card Text --- */
+.card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #a855f7;
+    text-transform: uppercase;
+}
+
+.card p {
+    font-size: 14px;
+    color: #ddd;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+/* --- Button Style (Same Glow as Index) --- */
+.card a {
+    display: inline-block;
+    background: linear-gradient(to right, #9c4dff, #7b36cc);
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 15px rgba(156, 77, 255, 0.4);
+}
+
+.card a:hover {
+    background: linear-gradient(to right, #b26fff, #9444ff);
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(156, 77, 255, 0.8);
+}
+    .go-back-btn {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(to right, #00c6ff, #7b36cc);
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 15px rgba(0, 198, 255, 0.4);
+    }
+
+    .go-back-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px rgba(0, 198, 255, 0.8);
+      background: linear-gradient(to right, #00d8ff, #9444ff);
+    }
+
+/* --- Responsive Fix --- */
+@media (max-width: 768px) {
+    .text1 {
+        font-size: 1.6rem;
+        margin-top: 30px;
+    }
+
+    .card {
+        width: 85%;
+    }
+
+    .container {
+        gap: 25px;
+    }
+}
