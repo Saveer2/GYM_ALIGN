@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM ALIGN</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+</head>
+<body>
+    
+    <!-- Loader -->
+    <div id="loader-wrapper">
+        <div class="square-container">
+            <div class="square square-1"></div>
+            <div class="square square-2"></div>
+            <div class="square square-3"></div>
+            <div class="square square-4"></div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <nav>
+            <span>
+                <img src="img/logo.png" alt="Gym Align Logo">
+            </span>
+        </nav>
+
+        <div class="box">
+            <video class="video" autoplay muted loop playsinline>
+                <source src="video/video.mp4" type="video/mp4" />
+            </video>
+        </div>
+
+        <div class="Hero">
+            <span>GYM ALIGN</span>
+            <span>Train Smart, Move Right !!</span>
+            <span>Master every exercise with precision.</span>
+            <span>Lift safely, align your moves, and make every rep count!</span>
+            <span>Let's get started!!</span>
+            <span>||  WELCOME ||</span>
+        </div>
+    
+        <div class="separate"></div>
+    </div>
+
+    <!-- Exercise Card Section -->
+    <section class="First1">
+        <div class="text1">
+            CHOOSE YOUR WORKOUT!!
+        </div>
+        <div class="container">
+            <div class="card">
+                <img src="img/weights.jpg" alt="Weighted Exercises">
+                <h3>Weighted </h3>
+                <h3>Exercises!!</h3>
+                <model-viewer 
+                    src="model/dumbbells_trainer/scene.gltf" 
+                    alt="A 3D model of dumbbells"
+                    auto-rotate
+                    camera-controls
+                    style="width: 100%; height: 300px; border-radius: 8px;">
+                </model-viewer>
+
+                <p>Learn how to perform weighted workouts with proper form.</p>
+                <a href="weight.html">Get Started</a>
+            </div>
+
+            <div class="card">
+                <img src="img/non_weights.jpg" alt="Non-Weighted Exercises">
+                <h3>Non-Weighted Exercises!!</h3>
+                <model-viewer 
+                    src="model/treadmill_machine/scene.gltf" 
+                    alt="A 3D model of dumbbells"
+                    auto-rotate
+                    camera-controls
+                    style="width: 100%; height: 300px; border-radius: 8px;">
+                </model-viewer>
+
+                <p>Learn how to perform non-weighted workouts.</p>
+                <a href="#" onclick="showPopup()">Get Started</a>
+            </div>
+
+            <!-- Popup -->
+            <div id="popup" class="popup">
+              <div class="popup-content">
+                <h2>🚧 Work in Progress</h2>
+                <p>This feature will be implemented in future updates.</p>
+                <button onclick="closePopup()">OK</button>
+              </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="seperate"></div>
+
+    <!-- Footer -->
+    <footer class="project-footer">
+        <div class="footer-content">
+            <p>This project is for educational purposes only.</p>
+        </div>
+        <div class="footer-content">
+            <p>|| 3D Dumbbells ||</p>
+        </div>
+        <div class="footer-content">
+            <p>This works is based on "Dumbbells trainer" (https://sketchfab.com/3d-models/dumbbells-trainer-3e4bc9d7c6354dd9a8c68cc53be5d675) by Gerhald (https://sketchfab.com/Gerhald) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+            </p>
+        </div>
+        <div class="footer-content">
+            <p>|| 3D Treadmill Machine ||</p>
+        </div>
+        <div class="footer-content">
+            <p>This work is based on "Treadmill Machine" (https://sketchfab.com/3d-models/treadmill-machine-faed3a2a275b4fd68089e1d8bdfb7f89) by Sousinho (https://sketchfab.com/sousinho) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+            </p>
+        </div>
+    </footer>
+
+    <script src="index1.js"></script>
+</body>
+</html>
