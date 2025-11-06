@@ -93,7 +93,7 @@ nav {
 }
 
 nav img {
-  width: 50px;
+  width: 45px;
   filter: drop-shadow(0 0 8px #6d00ff);
 }
 
@@ -362,3 +362,4 @@ nav img {
     margin-top: 100px; /* Significantly reduce top margin */
   }
 }
+
