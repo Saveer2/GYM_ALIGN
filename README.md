@@ -12,20 +12,15 @@
 
 ### Landing Page & Workout Selection
 The entry point to the fitness journey, featuring a dynamic selection screen.
-| Home Page | Selection Screen |
-|:---:|:---:|
-| ![Home Page](path/to/your_home_screenshot.jpg) | ![Selection](path/to/your_selection_screenshot.jpg) |
+
 
 ### Muscle Group Categories
 A categorized grid layout allowing users to choose specific target areas.
-![Categories](path/to/your_categories_screenshot.jpg)
+
 
 ### Exercise Guides (Color-Coded Themes)
 Each muscle group features a unique neon glow theme to distinguish the workouts visually.
 
-| **Shoulders (Yellow)** | **Back (Green)** | **Abs (Red)** |
-|:---:|:---:|:---:|
-| ![Shoulder](path/to/shoulder_screenshot.jpg) | ![Back](path/to/back_screenshot.jpg) | ![Abs](path/to/abs_screenshot.jpg) |
 
 ---
 
